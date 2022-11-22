@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+body {
+    height: 100vh;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 85vw;
+    min-height: 85vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px 0px #4f4f4f;
+    display: flex;
+    gap: 10px;
+}
+
+.section-left {
+    background-color: #efefef;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.section-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.elf-image {
+    height: 100%;
+    object-fit: contain;
+}
+
+.elf-image-overlay {
+    position: absolute;
+    align-self: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section-right {
+    background-color: #efefef;
+    border-radius: 10px;
+    flex: 1;
+    padding: 10px;
+}
+
+
+.details-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.clothing-item {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothing-item:hover {
+    cursor: pointer;
+}
+
+.clothing-item-mdown {
+    background-color: #ffdef2;
+}
+
+
+.cloth-item-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+#hair-overlay {
+    z-index: 9999;
+}
+
+
+.info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title {
+    color: #6f6f6f;
+}
+
+.info-value {
+    color: #6f6f6f;
+    font-size: 24px;
+}
+
+
+.squared-info-subcontainer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+
+
+.reset-btn {
+    width: 100%;
+    background-color: #740505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
+    background-color: #940000;
+}
+
+.reset-btn h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}

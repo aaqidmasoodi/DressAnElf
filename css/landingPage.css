@@ -1,0 +1,59 @@
+.left-image-big {
+    flex: 1;
+    background-image: url("../elf/Dark_Mid.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.right-form-container {
+    flex: 2;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.form-title-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#welcome-text {
+    font-size: 30px;
+    color: #6f6f6f;
+}
+
+
+.main-form {
+    height: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+}
+
+
+.submit-btn {
+    padding: 10px;
+    border: none;
+    background-color: rgb(36, 36, 159);
+    color: #efefef;
+    font-weight: bold;
+    font-size: 20;
+}
+
+.submit-btn:hover {
+    background-color: rgb(23, 23, 89);
+    cursor: pointer;
+}

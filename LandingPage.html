@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | DressAnElf</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/landingPage.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="left-image-big"></div>
+        <div class="right-form-container">
+
+            <div class="form-title-container">
+                <h2 id="welcome-text">Welcome</h2>
+                <p id="elf-dresser-text">Elf Dresser</p>
+            </div>
+
+            <form action="#" class="main-form">
+
+                <div class="input-container">
+                    <p>Name</p>
+                    <input type="text" id="name" name="name" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Age</p>
+                    <input type="number" step="1" placeholder="1" min="1" id="age" name="age" class="form-input">
+                </div>
+
+
+                <div class="input-container">
+                    <p>Gender</p>
+                    <select name="gender" id="gender" class="form-input">
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                        <option value="o">Other</option>
+                    </select>
+                </div>
+
+                <div class="input-container">
+                    <p>Weight</p>
+                    <input type="number" step="1" placeholder="1" min="1" id="weight" name="weight" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Height</p>
+                    <input type="number" step="1" placeholder="1" min="1" id="height" name="height" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Emotional</p>
+                    <input type="range" id="emotional" name="emotional" min="0" max="10" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Happiness</p>
+                    <input type="range" id="happiness" name="happiness" min="0" max="10" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Calm</p>
+                    <input type="range" id="calm" name="calm" min="0" max="10" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Braveness</p>
+                    <input type="range" id="braveness" name="braveness" min="0" max="10" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Orderly</p>
+                    <input type="range" id="orderly" name="orderly" min="0" max="10" class="form-input">
+                </div>
+
+                <div class="input-container">
+                    <p>Birthplace</p>
+                    <input type="text" id="birthplace" name="birthplace" class="form-input">
+                </div>
+
+                <button type="submit" class="submit-btn">Continue</button>
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="./js/onBoard.js"></script>
+</body>
+
+</html>
